@@ -12,4 +12,12 @@ public class Student {
     public void setStudentId(int studentId) {
         this.studentId = studentId;
     }
+
+    public int getProperty3() {
+        return property3;
+    }
+
+    public void setProperty3(int property3) {
+        this.property3 = property3;
+    }
 }
