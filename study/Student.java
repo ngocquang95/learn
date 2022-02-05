@@ -3,6 +3,9 @@ package study;
 public class Student {
     private int studentId;
 
+    /**
+     * property3
+     */
     private int property3;
 
     public int getStudentId() {
