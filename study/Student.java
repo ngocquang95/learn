@@ -10,6 +10,11 @@ public class Student {
      */
     private int property3;
 
+    /**
+     * property4
+     */
+    private int property4;
+
     public int getStudentId() {
         return studentId;
     }
@@ -32,5 +37,13 @@ public class Student {
 
     public void setProperty3(int property3) {
         this.property3 = property3;
+    }
+
+    public int getProperty4() {
+        return property4;
+    }
+
+    public void setProperty4(int property4) {
+        this.property4 = property4;
     }
 }
