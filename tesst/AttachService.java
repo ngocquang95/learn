@@ -9,8 +9,8 @@ import lombok.Setter;
 @Builder
 public class attachService {
     private int AttachServiceId;
-    private String attachServiceName;
-    private Double attachServiceCost;
+    private String attach_ServiceName;
+    private Double attach$ServiceCost;
     private Integer attachServiceUnit;
     private String attachServiceStatus;
 }
