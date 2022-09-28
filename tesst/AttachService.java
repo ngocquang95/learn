@@ -7,8 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Builder
-public class AttachService {
-    private int attachServiceId;
+public class attachService {
+    private int AttachServiceId;
     private String attachServiceName;
     private Double attachServiceCost;
     private Integer attachServiceUnit;
