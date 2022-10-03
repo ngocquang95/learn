@@ -1,18 +1,11 @@
-package model;
+package basiclearning.version1;
 
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
-@Builder
 public class attachService {
     private int AttachServiceId = 1;
     private static final   String attach_ServiceName         = new String("ABC")       ;
     private Double attach$ServiceCost;
     private Integer attach_serviceUnit       ;
-    private final String attachServiceStatus = "hello";
+    //private final String attachServiceStatus = "hello";
 
     public int getAttachServiceId() {
         return AttachServiceId;
@@ -26,14 +19,14 @@ public class attachService {
         return attach$ServiceCost;
     }
 
-    public void setAttach$ServiceCost(Double attach$ServiceCost) {
-        this.attach$ServiceCost = attach$ServiceCost;
-    }
+//    public void setAttach$ServiceCost(Double attach$ServiceCost) {
+//        this.attach$ServiceCost = attach$ServiceCost;
+//    }
 
     public Integer getAttach_serviceUnit() {
         return attach_serviceUnit;
     }
-
+/*
     public void setAttach_serviceUnit(Integer attach_serviceUnit) {
         this.attach_serviceUnit = attach_serviceUnit;
     }
@@ -41,4 +34,5 @@ public class attachService {
     public String getAttachServiceStatus() {
         return attachServiceStatus;
     }
+ */
 }
