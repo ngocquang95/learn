@@ -9,7 +9,7 @@ public class attachService {
 
     public int getAttachServiceId(double Z, double z_D) {
         int x = 2;
-        long A =2;
+        final long A=2;
         long Y;
         return AttachServiceId;
     }
