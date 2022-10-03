@@ -3,7 +3,7 @@ package basiclearning.version1;
 public class attachService {
     private int AttachServiceId = 1;
     private static final   String attach_ServiceName         = new String("ABC")       ;
-    private Double attach$ServiceCost;
+    Double attach$ServiceCost;
     private Integer attach_serviceUnit       ;
     //private final String attachServiceStatus = "hello";
 
