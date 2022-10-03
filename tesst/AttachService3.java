@@ -2,12 +2,15 @@ package basiclearning.version1;
 
 public class attachService {
     private int AttachServiceId = 1;
-    static final   String attach_ServiceName         = new String("ABC")       ;
-    Double attach$ServiceCost;
+    private static final   String attach_ServiceName         = new String("ABC")       ;
+    private Double attach$ServiceCost;
     private Integer attach_serviceUnit       ;
     //private final String attachServiceStatus = "hello";
 
-    public int getAttachServiceId() {
+    public int getAttachServiceId(double Z, double z_D) {
+        int x = 2;
+        long A =2;
+        long Y;
         return AttachServiceId;
     }
 
