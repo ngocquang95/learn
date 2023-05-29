@@ -5,6 +5,8 @@ public class Student {
 
     private String name;
 
+    private double score;
+
     public int getStudentId() {
         return studentId;
     }
@@ -19,5 +21,13 @@ public class Student {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public double getScore() {
+        return score;
+    }
+
+    public void setScore(double score) {
+        this.score = score;
     }
 }
